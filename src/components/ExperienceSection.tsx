@@ -1,6 +1,6 @@
-import roomsImg from "@/assets/rooms.jpg";
-import diningImg from "@/assets/dining.jpg";
-import gardensImg from "@/assets/gardens.jpg";
+import roomsImg from "@/assets/rooms-real.jpg";
+import diningImg from "@/assets/dining-real.jpg";
+import gardensImg from "@/assets/gardens-real.jpg";
 
 const experiences = [
   {

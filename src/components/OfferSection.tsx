@@ -1,4 +1,4 @@
-import offerImg from "@/assets/offer-detail.jpg";
+import offerImg from "@/assets/offer-fireplace.jpg";
 
 const OfferSection = () => {
   return (
@@ -10,7 +10,7 @@ const OfferSection = () => {
             <div className="overflow-hidden">
               <img
                 src={offerImg}
-                alt="Cozy winter suite at Dorp Hotel"
+                alt="Cosy winter lounge at Dorp Hotel"
                 className="w-full object-cover"
                 loading="lazy"
               />
@@ -24,37 +24,24 @@ const OfferSection = () => {
               THE OFFER
             </span>
             <h2 className="font-serif text-3xl font-medium leading-snug text-foreground md:text-4xl lg:text-5xl">
-              A Season of<br />Quiet Luxury
+              The Art of<br />Staying Longer
             </h2>
             <div className="h-px w-16 bg-primary/40" />
-            <p className="font-sans text-base font-light leading-relaxed text-muted-foreground">
-              Cape Town in winter is a revelation — misty mornings on Signal Hill, 
-              crackling fires in heritage rooms, and the city bathed in golden afternoon light. 
-              This is Dorp at its most intimate.
-            </p>
-            <ul className="flex flex-col gap-4 text-sm text-foreground/80">
-              <li className="flex items-start gap-3">
-                <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
-                <span>Minimum 4-night stay required</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
-                <span>20% discount on our best available rate</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
-                <span>Valid 1 May – 30 September 2025</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
-                <span>Book direct for the best price</span>
-              </li>
-            </ul>
+            <div className="flex flex-col gap-4 font-sans text-base font-light leading-relaxed text-muted-foreground">
+              <p>Cape Town rarely reveals itself in a hurry.</p>
+              <p>
+                This winter, guests who stay four nights or more between 01 May –
+                31 August 2026 enjoy 20% off their best available rate.
+              </p>
+              <p className="font-serif italic text-foreground/70">
+                Which seems only fair.
+              </p>
+            </div>
             <a
               href="#enquire"
               className="mt-2 w-fit border border-primary bg-primary/10 px-8 py-3 text-xs tracking-[0.25em] text-primary transition-all hover:bg-primary hover:text-primary-foreground"
             >
-              ENQUIRE NOW
+              BOOK NOW
             </a>
           </div>
         </div>
