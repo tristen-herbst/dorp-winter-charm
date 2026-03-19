@@ -3,7 +3,7 @@ import ItinerarySection from "@/components/ItinerarySection";
 import ExperienceSection from "@/components/ExperienceSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import OfferSection from "@/components/OfferSection";
-import ContactSection from "@/components/ContactSection";
+
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -14,7 +14,7 @@ const Index = () => {
       <ExperienceSection />
       <TestimonialsSection />
       <OfferSection />
-      <ContactSection />
+      
       <Footer />
     </main>
   );
