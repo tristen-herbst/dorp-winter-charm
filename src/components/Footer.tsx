@@ -14,7 +14,7 @@ const Footer = () => {
           <a href="#" className="transition-colors hover:text-primary">Terms</a>
         </div>
         <p className="text-[11px] text-muted-foreground/60">
-          © 2025 Dorp Hotel. All rights reserved.
+          © 2026 Dorp Hotel. All rights reserved.
         </p>
       </div>
     </footer>
