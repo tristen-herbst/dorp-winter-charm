@@ -5,8 +5,8 @@ const HeroSection = () => {
     <section className="relative min-h-screen w-full overflow-hidden">
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url(${heroBg})` }}
-      />
+        style={{ backgroundImage: `url(${heroBg})` }} />
+      
       <div className="absolute inset-0 bg-background/70" />
 
       <div className="relative z-10 flex min-h-screen flex-col items-center justify-between px-6 py-8">
@@ -39,7 +39,7 @@ const HeroSection = () => {
             </p>
 
             <div className="flex flex-col items-center gap-1.5 font-serif text-sm italic tracking-wide text-primary/90 md:text-base">
-              <span>Fires are lit earlier.</span>
+              <span>Fires are lit earlier. Lunch lingers longer.Dinner tends to become a conversation. </span>
               <span>Lunch lingers longer.</span>
               <span>Dinner tends to become a conversation.</span>
             </div>
@@ -51,18 +51,15 @@ const HeroSection = () => {
         </div>
 
         {/* Scroll indicator */}
-        <button
-          onClick={() => document.getElementById("winter-stay")?.scrollIntoView({ behavior: "smooth" })}
-          className="flex flex-col items-center gap-2 cursor-pointer bg-transparent border-none"
-        >
+        <div className="flex flex-col items-center gap-2">
           <span className="text-[10px] tracking-[0.3em] text-muted-foreground">
             SCROLL
           </span>
           <div className="h-8 w-px bg-primary/40" />
-        </button>
+        </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default HeroSection;
