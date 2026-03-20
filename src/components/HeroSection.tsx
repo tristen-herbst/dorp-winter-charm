@@ -47,6 +47,15 @@ const HeroSection = () => {
             <p className="text-foreground/80">
               Winter, in other words, suits Dorp rather well.
             </p>
+
+            <a
+              href="https://www.dorp.co.za/book"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-2 w-fit border border-primary bg-primary/10 px-8 py-3 text-xs tracking-[0.25em] text-primary transition-all hover:bg-primary hover:text-primary-foreground"
+            >
+              BOOK NOW
+            </a>
           </div>
         </div>
 
