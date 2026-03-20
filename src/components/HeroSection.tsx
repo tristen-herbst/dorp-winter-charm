@@ -40,7 +40,7 @@ const HeroSection = () => {
 
             <div className="flex flex-col items-center gap-1.5 font-serif text-sm italic tracking-wide text-primary/90 md:text-base">
               <span>Fires are lit earlier. Lunch lingers longer.Dinner tends to become a conversation. </span>
-              <span>Lunch lingers longer.</span>
+              
               
             </div>
 
