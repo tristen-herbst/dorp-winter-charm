@@ -6,7 +6,7 @@ const Footer = () => {
           DORP
         </span>
         <p className="text-xs leading-relaxed text-muted-foreground">
-          24 Dorp Street, Bo-Kaap, Cape Town, South Africa
+          273 Longmarket St, Schotsche Kloof, Cape Town
         </p>
         <div className="flex gap-6 text-xs text-muted-foreground">
           <a href="#" className="transition-colors hover:text-primary">Privacy Policy</a>
@@ -17,8 +17,8 @@ const Footer = () => {
           © 2026 Dorp Hotel. All rights reserved.
         </p>
       </div>
-    </footer>
-  );
+    </footer>);
+
 };
 
 export default Footer;
