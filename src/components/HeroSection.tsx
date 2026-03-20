@@ -51,12 +51,15 @@ const HeroSection = () => {
         </div>
 
         {/* Scroll indicator */}
-        <div className="flex flex-col items-center gap-2">
+        <button
+          onClick={() => document.getElementById("winter-stay")?.scrollIntoView({ behavior: "smooth" })}
+          className="flex flex-col items-center gap-2 cursor-pointer bg-transparent border-none"
+        >
           <span className="text-[10px] tracking-[0.3em] text-muted-foreground">
             SCROLL
           </span>
           <div className="h-8 w-px bg-primary/40" />
-        </div>
+        </button>
       </div>
     </section>
   );

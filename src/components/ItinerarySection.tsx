@@ -39,7 +39,7 @@ const days = [
 
 const ItinerarySection = () => {
   return (
-    <section className="px-6 py-24 md:py-32">
+    <section id="winter-stay" className="px-6 py-24 md:py-32">
       <div className="mx-auto max-w-7xl">
         {/* Header */}
         <div className="mb-20 flex flex-col items-center gap-5 text-center">
