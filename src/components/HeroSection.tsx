@@ -16,7 +16,7 @@ const HeroSection = () => {
             DORP
           </span>
           <span className="text-[10px] tracking-[0.25em] text-foreground/50">
-            DORP HOTEL | WINTER 2026
+            DORP | WINTER 2026
           </span>
         </nav>
 
@@ -47,15 +47,6 @@ const HeroSection = () => {
             <p className="text-foreground/80">
               Winter, in other words, suits Dorp rather well.
             </p>
-
-            <a
-              href="https://www.dorp.co.za/book"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mx-auto mt-2 w-fit border border-primary bg-primary/10 px-8 py-3 text-xs tracking-[0.25em] text-primary transition-all hover:bg-primary hover:text-primary-foreground"
-            >
-              BOOK NOW
-            </a>
           </div>
         </div>
 
