@@ -38,7 +38,7 @@ const OfferSection = () => {
               </p>
             </div>
             <a
-              href="https://www.dorp.co.za/book"
+              href="https://direct-book.com/properties/DorpHotelBoschendalDIRECT?locale=en&items[0][adults]=2&items[0][children]=0&items[0][infants]=0&currency=ZAR&checkInDate=2026-03-23&checkOutDate=2026-03-24&trackPage=yes"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-2 w-fit border border-primary bg-primary/10 px-8 py-3 text-xs tracking-[0.25em] text-primary transition-all hover:bg-primary hover:text-primary-foreground"
