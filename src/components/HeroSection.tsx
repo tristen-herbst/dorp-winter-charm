@@ -21,10 +21,6 @@ const HeroSection = () => {
           </h1>
 
           <div className="flex flex-col gap-5 text-base font-light leading-relaxed text-foreground/70 md:text-lg">
-            <p>
-              The light softens. The mountain gathers clouds like theatre curtains. From Signal Hill, the view shifts
-              between mist, winter sun, rain, then blue again.
-            </p>
 
             <p className="text-foreground/80">Inside Dorp, winter has its own rhythm.  </p>
 
