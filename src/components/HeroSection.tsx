@@ -28,18 +28,18 @@ const HeroSection = () => {
 
           <div className="flex flex-col gap-5 text-base font-light leading-relaxed text-foreground/70 md:text-lg">
             <p>
-              The light softens. The mountain gathers clouds like theatre
-              curtains. The city slows down slightly. From the slopes of Signal
-              Hill, the view becomes even more dramatic — a shifting stage of
-              mist, warm winter sun, rain and sudden blue skies.
+              The light softens. The mountain gathers clouds like theatre curtains. From Signal Hill, the view shifts between mist, winter sun, rain, then blue again.
+            
+
+
             </p>
 
             <p className="text-foreground/80">
-              Inside Dorp, winter has its own rhythm.
+              Inside Dorp, everything down.
             </p>
 
             <div className="flex flex-col items-center gap-1.5 font-serif text-sm italic tracking-wide text-primary/90 md:text-base">
-              <span>Fires are lit earlier. Lunch lingers longer. Dinner tends to become a conversation. </span>
+              <span>Fires are lit early, lunches linger, and dinner becomes a conversation. </span>
               
               
             </div>
@@ -53,8 +53,8 @@ const HeroSection = () => {
             href="https://www.dorp.co.za/book"
             target="_blank"
             rel="noopener noreferrer"
-            className="border border-primary bg-primary/10 px-8 py-3 text-xs tracking-[0.25em] text-primary transition-all hover:bg-primary hover:text-primary-foreground"
-          >
+            className="border border-primary bg-primary/10 px-8 py-3 text-xs tracking-[0.25em] text-primary transition-all hover:bg-primary hover:text-primary-foreground">
+            
             BOOK NOW
           </a>
         </div>
