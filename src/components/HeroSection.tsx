@@ -26,7 +26,7 @@ const HeroSection = () => {
               between mist, winter sun, rain, then blue again.
             </p>
 
-            <p className="text-foreground/80">Inside Dorp, everything down.</p>
+            <p className="text-foreground/80">Inside Dorp, winter has its own rhythm.  </p>
 
             <div className="flex flex-col items-center gap-1.5 font-serif text-sm italic tracking-wide text-primary/90 md:text-base">
               <span>Fires are lit early, lunches linger, and dinner becomes a conversation. </span>
@@ -37,8 +37,8 @@ const HeroSection = () => {
             href="https://direct-book.com/properties/DorpHotelBoschendalDIRECT?locale=en&items[0][adults]=2&items[0][children]=0&items[0][infants]=0&currency=ZAR&checkInDate=2026-03-23&checkOutDate=2026-03-24&trackPage=yes"
             target="_blank"
             rel="noopener noreferrer"
-            className="border border-primary bg-primary/10 px-8 py-3 text-xs tracking-[0.25em] text-primary transition-all hover:bg-primary hover:text-primary-foreground"
-          >
+            className="border border-primary bg-primary/10 px-8 py-3 text-xs tracking-[0.25em] text-primary transition-all hover:bg-primary hover:text-primary-foreground">
+            
             BOOK NOW
           </a>
         </div>
@@ -49,8 +49,8 @@ const HeroSection = () => {
           <div className="h-8 w-px bg-primary/40" />
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default HeroSection;
