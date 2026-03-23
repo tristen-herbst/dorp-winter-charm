@@ -57,17 +57,21 @@ const ItinerarySection = () => {
           </p>
         </div>
 
-        {/* Staggered 2-column masonry */}
-        <div className="grid gap-6 md:grid-cols-2 md:gap-8">
-          {/* Left column: Day 1, Day 3, One More Night */}
-          <div className="flex flex-col gap-6 md:gap-8">
+        {/* Mobile: sequential order */}
+        <div className="flex flex-col gap-6 md:hidden">
+          {days.map((day, i) => (
+            <DayTile key={i} day={day} className={day.tall ? "aspect-[3/4]" : "aspect-[4/3]"} />
+          ))}
+        </div>
+
+        {/* Desktop: staggered 2-column masonry */}
+        <div className="hidden gap-8 md:grid md:grid-cols-2">
+          <div className="flex flex-col gap-8">
             <DayTile day={days[0]} className="aspect-[3/4]" />
             <DayTile day={days[2]} className="aspect-[4/3]" />
             <DayTile day={days[4]} className="aspect-[3/2]" />
           </div>
-
-          {/* Right column: offset down, Day 2, Day 4 */}
-          <div className="flex flex-col gap-6 md:mt-24 md:gap-8">
+          <div className="flex flex-col gap-8 md:mt-24">
             <DayTile day={days[1]} className="aspect-[4/3]" />
             <DayTile day={days[3]} className="aspect-[3/4]" />
           </div>
