@@ -31,6 +31,10 @@ const HeroSection = () => {
             <div className="flex flex-col items-center gap-1.5 font-serif text-sm italic tracking-wide text-primary/90 md:text-base">
               <span>Fires are lit early, lunches linger, and dinner becomes a conversation. </span>
             </div>
+
+            <p className="text-base font-light leading-relaxed text-foreground md:text-lg">
+              Winter, in other words, suits Dorp rather well.
+            </p>
           </div>
 
           <a
