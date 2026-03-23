@@ -32,7 +32,7 @@ const HeroSection = () => {
               <span>Fires are lit early, lunches linger, and dinner becomes a conversation. </span>
             </div>
 
-            <p className="text-base font-light leading-relaxed text-foreground md:text-lg">
+            <p className="text-base font-light leading-relaxed text-foreground/80 md:text-lg">
               Winter, in other words, suits Dorp rather well.
             </p>
           </div>
