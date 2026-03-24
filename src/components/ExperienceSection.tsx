@@ -12,7 +12,7 @@ const experiences = [
   {
     image: diningImg,
     title: "Dining",
-    desc: "Home-style dishes paired with fine Cape wines and city views.",
+    desc: "Home-style dishes, rich and comforting, enjoyed against sweeping city views.",
     offset: "md:mt-16",
   },
   {
